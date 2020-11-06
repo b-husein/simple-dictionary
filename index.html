@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dictionary</title>
+  
+      <link rel="stylesheet" href="./styles.css">
+      <link rel="stylesheet" href="./mobile.css">
+  
+      <!--	bootstrap CDN-->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+      <!-- google fonts-->
+      <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+  
+      <!-- Font Poppins  -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  
+      <!--font awesome CDN-->
+      <script src="https://kit.fontawesome.com/79361d7429.js" crossorigin="anonymous"></script>
+  
+      <!-- semantic UI -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css"></link>
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <div class="main-title">
+      Simple Dictionary; 
+      </div>
+
+      <div class="container">
+
+        <input id="search-bar" type="text" placeholder="Search word">
+        <button id="button" type="button" class="click">
+          <i class="fas fa-search"></i>
+          Search
+        </button>
+        
+        <div class="data">
+          <span class="load">Loading...</span>
+          <p class="def"></p>
+          <div class="audio"></div>
+          <div class="not__found">Not Found</div>
+        </div>
+        
+        <footer class="my-footer">
+        <div>
+          <!-- HackerRank -->
+          <a href="https://www.hackerrank.com/b_husein" target="_blank"><i class="social-media fab fa-hackerrank"></i></a>
+        
+          <!-- GitHub -->
+          <a href="https://github.com/b-husein" target="_blank"><i class="social-media fab fa-github"></i></a>
+  
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/b-husein/" target="_blank"><i class="social-media fa fa-linkedin"></i></a>
+        
+          <!-- YouTube channel -->
+          <a href="https://www.youtube.com/channel/UCHZwWQR2hLBB0sTUmKT3esw/playlists" target="_blank"
+          ><i class="social-media fab fa-youtube"></i></a>
+        
+          <!-- Copyright -->
+          <p class="footer-paragraph">
+          2020 &copy; | dictionary. | coded by <a href="#" target="_blank">HUSEIN</a>;
+          </p>
+        </div>
+        </footer>
+
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
