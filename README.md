@@ -1,5 +1,5 @@
-# Dictionary_App
+# Simple dictionary
 
-### Simple dictionary UI with Merriam-Webster dictionary API;
+### Simple UI with Merriam-Webster dictionary API;
 
 ![Simple dictionary GIF](./images/dict.gif)
